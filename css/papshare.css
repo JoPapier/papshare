@@ -1,0 +1,164 @@
+.form {
+	width: 100%;
+	max-width: 420px;
+	padding: 15px;
+	margin: auto;
+	justify-content: center;
+	font-weight: bold;
+}
+*, ::after, ::before {
+	box-sizing: border-box;
+	font-family: arial;
+}
+body {
+	font-family: arial;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	background-color:#eeeeee;
+	text-align: left;
+	font-weight: bold;
+}
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	font-weight: bold;
+}
+.photo{
+	object-fit: cover;
+}
+.blocPhoto{
+	margin: 10px 10px 20px 10px;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid 2px #eeeeee;;
+	background-color: white;
+}
+#container{
+  top: 150px;
+  display: flex;
+	flex-wrap: wrap;
+	max-width: calc(350px * 2);
+	margin: auto;
+	justify-content: space-around;
+	font-weight: bold;
+}
+.blocPhoto .date{
+	text-align: center;
+	font-size: 12px;
+}
+.blocPhoto .input{
+	text-align: center;
+	font-size: 15px;
+	border : none;
+}
+.blocPhoto .genre{
+	text-align: center;
+	font-size: 320px;
+}
+.blocPhoto .pseudo{
+	text-align: center;
+	font-size: 15px;
+}
+.blocPhoto img{
+	width: 100%;
+	height: 300px;
+	border-radius : 50px;
+	object-fit: scale-down;
+}
+.blocPhoto .icon{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	cursor: pointer;
+}
+.blocPhoto .icon .ico{
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	transition: .1s;
+	font-weight: bold;
+}
+.blocPhoto .icon .ico:hover{
+	width: 36px;
+	height: 36px;
+	font-weight: bold;
+}
+#container1{
+  top: 150px;
+  display: flex;
+	flex-wrap: wrap;
+	max-width: calc(300px * 4);
+	margin: auto;
+	justify-content: center;
+	font-weight: bold;
+}
+#vignette{
+	width: 300px; /* Utile entre TD#12 et TD#14. */
+	height: 300px; /* Utile entre TD#12 et TD#14. */
+	padding: 3px;
+	border: dashed 2px #ccc;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-origin: content-box;
+	background-size: contain;
+	font-weight: bold;
+}
+#container2{
+  top: 150px;
+  display: flex;
+	flex-wrap: wrap;
+	width:100px;
+	margin: auto;
+	justify-content: center;
+	font-weight: bold;
+}
+#detailPhoto img{
+	margin: 0 50px 0 0;
+	width: 400px;
+	height: 400px;
+	object-fit: contain;
+	font-weight: bold;
+}
+.img-responsive .centre {
+ margin: 0 auto;
+}
+#map {
+width: 300px; /* Utile entre TD#12 et TD#14. */
+	height: 300px; /* Utile entre TD#12 et TD#14. */
+	padding: 3px;
+	border: dashed 2px #ccc;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-origin: content-box;
+	background-size: contain;
+	font-weight: bold;
+}
+#map2 {
+	margin: 8px;
+	width:auto;
+	height: 100px;
+	background-color: grey;
+	font-weight: bold;
+}
+form div.item{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+form label{
+	min-width: 150px;
+	margin: 5px;
+	padding: 2px;
+	font-weight: bold;
+}
+form #photo{
+	display: none;
+	font-weight: bold;
+}
+
+
